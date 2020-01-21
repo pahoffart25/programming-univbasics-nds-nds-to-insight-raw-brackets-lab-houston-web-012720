@@ -11,8 +11,7 @@ def directors_totals(nds)
   total = 0
   directors_database.each do |dir_name, dir_info|
     dir_name[:movies].each do |movie|
-      total += movie[:worldwide_gross]
+      director_total = 
     end
-    return total
   end
 end
